@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast t = Toast.makeText(MainActivity.this,item.title, Toast.LENGTH_SHORT);
                 t.show();
 
-
                 Intent intent = new Intent(MainActivity.this, DetailPromotion.class);
                 intent.putExtra("title", item.title);
                 startActivity(intent);

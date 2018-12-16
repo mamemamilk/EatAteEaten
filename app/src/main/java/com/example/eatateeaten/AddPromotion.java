@@ -20,7 +20,6 @@ import static com.example.eatateeaten.db.DB_NAME.DETAIL_PROMO;
 public class AddPromotion extends AppCompatActivity {
 
     private static final String TAG = AddPromotion.class.getName();
-    static String table_name;
 
     private DB_NAME mHelper;
     private SQLiteDatabase mDb;
